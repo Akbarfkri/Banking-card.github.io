@@ -1,0 +1,121 @@
+body {
+
+    background-color: aquamarine;
+}
+
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+
+
+.cardbank {
+    height: 265px;
+    width: 350px;
+    background-color: antiquewhite;
+    margin-right: 5px;
+    border-radius: 20px;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+    left: 80px;
+    top: 85px;
+    line-height: 0;    
+}
+
+.cardbank .logo {
+    padding-right: 10px;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+.cardbank .logo .logobca {
+    padding-right: 100px;
+}
+
+.cardbank .chip {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.cardbank p {
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+}
+
+
+
+.valid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+
+.formbank{
+    height: 500px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: white 2px solid;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+
+.formbank .fontform {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 500px) {
+
+.cardbank {
+    position: relative;
+    left: 3px;
+    top: 40px;
+    height: 265px;
+    width: 325px;
+}
+}
+
+@media (max-width: 1000px) {
+    .cardbank {
+        position: relative;
+        left: -5px;
+        top: 30px;
+        height: 265px;
+        width: 325px;
+    }
+
+ }
+
+
+
+
+
+
+
+ 
+
+
+
